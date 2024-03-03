@@ -1,0 +1,22 @@
+// Ques 4: Maximum Count of Positive Integer and Negative Integer
+// Given an array nums sorted in non-decreasing order, return the maximum between
+// the number of positive integers and the number of negative integers.
+
+// Input: arr = [-2,-1,-1,1,2,3]  ----->>>>>  Output: 3
+// Explanation: There are 3 positive integers and 3 negative integers.
+//              The maximum count among them is 3.
+
+function findMaximum(arr) {
+  let cntPositive = 0;
+  let cntNegative = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    const num = arr[i];
+    if (num > 0) cntPositive++;
+    else if (num < 0) cntNegative++;
+  }
+
+  return Math.max(cntPositive, cntNegative);
+}
+
+console.log(findMaximum([-2, -1, -1, 1, 2, 3,5]));
