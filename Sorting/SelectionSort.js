@@ -19,3 +19,5 @@ const selectionSort = (arr) => {
   return arr;
 };
 console.log(selectionSort([29, 10, 14, 37, 14]));
+// Time Complexity = O(n^2)
+// Space Complexity = O(1)
