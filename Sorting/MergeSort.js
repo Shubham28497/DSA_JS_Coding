@@ -10,3 +10,17 @@ function mergeSort(nums) {
   let right = mergeSort(nums.slice(mid));
   return merge(left, right);
 }
+
+function merge(left, right) {
+  let sortedArr = [];
+
+  while (left.length && right.length) {
+    if (left[0] < right[0]) {
+      sortedArr.push(left.shift());
+    } else {
+      sortedArr.push(right.shift());
+    }
+  }
+  return [...sortedArr, ...left, ...right];
+}
+console.log(mergeSort([8, 3, 5, 4, 7, 6, 1, 2]));
