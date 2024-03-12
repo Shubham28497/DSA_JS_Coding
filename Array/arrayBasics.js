@@ -52,3 +52,8 @@ const newNum1=numbers.filter((item, index, array) => {
   return item > 3;
 });
 console.log(newNum1)
+// reduce in javascript
+const newNum2=numbers.reduce((prev, item) => {
+  return prev + item;
+}, 2);
+console.log(newNum2);
