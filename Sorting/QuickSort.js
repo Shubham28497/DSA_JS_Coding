@@ -24,4 +24,7 @@ function quickSort(arr) {
 // Best Case - O(nlog n)
 // Worst Case - O(n^2)
 
+// Space Complexity -
+// Average Case - O(log n)
+// Worst Case - O(n)
 console.log(quickSort([5, 2, 9, 3, 6, 1, 8, 7]));
