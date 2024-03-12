@@ -8,3 +8,8 @@ let person = {
 let arr = ["apple", "banana", "cherry", person];
 
 console.log(arr.length); // know the length of an array
+// # Add and Remove Elements
+
+// Add to End of the Array
+arr.push("orange");
+console.log(arr)
