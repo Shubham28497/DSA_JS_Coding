@@ -17,4 +17,7 @@ arr.push("orange");
 // Remove From End of the Array
 arr.pop();
 arr.pop();
+// console.log(arr);
+// Add to Top of the Array
+arr.unshift("orange");
 console.log(arr);
