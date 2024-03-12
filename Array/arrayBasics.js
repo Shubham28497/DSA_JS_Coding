@@ -38,3 +38,11 @@ while (i < arr.length) {
 
   i++;
 }
+// # Inbuilt Loop Methods
+const numbers = [1, 2, 3, 4, 5];
+
+// map in javascript
+const newNum = numbers.map((item, index, array) => {
+  return item + 5;
+});
+console.log(newNum);
