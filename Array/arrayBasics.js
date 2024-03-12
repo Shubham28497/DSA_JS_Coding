@@ -46,3 +46,9 @@ const newNum = numbers.map((item, index, array) => {
   return item + 5;
 });
 console.log(newNum);
+
+// filter in javascript
+const newNum1=numbers.filter((item, index, array) => {
+  return item > 3;
+});
+console.log(newNum1)
