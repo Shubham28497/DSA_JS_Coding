@@ -17,4 +17,4 @@ function secondLargest(arr) {
   }
 }
 console.log(secondLargest([10, 5, 10]));
-
+Time Complexity -> O(nlogn);
