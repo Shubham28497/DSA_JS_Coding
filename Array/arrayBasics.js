@@ -12,4 +12,9 @@ console.log(arr.length); // know the length of an array
 
 // Add to End of the Array
 arr.push("orange");
-console.log(arr)
+// console.log(arr)
+
+// Remove From End of the Array
+arr.pop();
+arr.pop();
+console.log(arr);
