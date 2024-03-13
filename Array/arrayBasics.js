@@ -48,12 +48,12 @@ const newNum = numbers.map((item, index, array) => {
 console.log(newNum);
 
 // filter in javascript
-const newNum1=numbers.filter((item, index, array) => {
+const newNum1 = numbers.filter((item, index, array) => {
   return item > 3;
 });
-console.log(newNum1)
+console.log(newNum1);
 // reduce in javascript
-const newNum2=numbers.reduce((prev, item) => {
+const newNum2 = numbers.reduce((prev, item) => {
   return prev + item;
 }, 2);
 console.log(newNum2);
@@ -105,3 +105,7 @@ const flatEx = [1, [2, 3], [[4, 5], 6]]; // => [1,2,3,4,5,6]
 
 const flattenedArray = flatEx.flat(2);
 // console.log(flattenedArray);
+
+// reverse
+nums.reverse();
+// console.log(nums);
