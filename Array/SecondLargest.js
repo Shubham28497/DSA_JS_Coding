@@ -40,3 +40,5 @@ function secondLargestOptimised(arr) {
 }
 
 console.log(secondLargestOptimised([10, 5, 10]));
+// Time Complexity -> O(n);
+// Space Complexity -> O(1);
