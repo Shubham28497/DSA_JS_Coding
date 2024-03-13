@@ -8,12 +8,11 @@
 //Explanation : [1,2,3,4,5,6,7] => [7,1,2,3,4,5,6]=>[6,7,1,2,3,4,5]=>[5,6,7,1,2,3,4]
 function rotateArray(nums, k) {
   let size = nums.length;
-//   if (k > size) {
-//     k = k % size;
-//   }
+  if (k > size) {
+    k = k % size;
+  }
   const rotated = nums.splice(size - k, size); //[5,6,7]
   nums.unshift(...rotated);
   return nums;
 }
 console.log(rotateArray([1, 2, 3, 4, 5, 6, 7], 8));
-// Time Complexity - O(n)
