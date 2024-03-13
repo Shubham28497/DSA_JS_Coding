@@ -87,3 +87,21 @@ function sum(...numbers) {
 }
 
 console.log(sum(nums, nums2, 5, "hello"));
+// concat
+nums.concat(nums2, arr);
+
+// Slice
+arr.slice(-2);
+
+// Splice
+arr.splice(1, 2, "orange");
+
+// Fill
+const dummy = [2, 5, 1, 6];
+dummy.fill(2, 2);
+
+// Flat
+const flatEx = [1, [2, 3], [[4, 5], 6]]; // => [1,2,3,4,5,6]
+
+const flattenedArray = flatEx.flat(2);
+// console.log(flattenedArray);
