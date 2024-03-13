@@ -61,3 +61,16 @@ console.log(newNum2);
 numbers.some((item, index, array) => {
   return item > 3;
 });
+// every in javascript
+numbers.every((item, index, array) => {
+  return item < 10;
+});
+
+// find in javascript
+numbers.find((item, index, array) => {
+  return item > 3;
+});
+
+// findIndex
+const index = [1, 2, 3].findIndex((item) => item === 2);
+// console.log(index);
