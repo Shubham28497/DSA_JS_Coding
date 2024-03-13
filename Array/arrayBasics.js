@@ -109,3 +109,7 @@ const flattenedArray = flatEx.flat(2);
 // reverse
 nums.reverse();
 // console.log(nums);
+// sort
+const unsorted = [5, 2, 10, 7, 3, 1];
+unsorted.sort((a, b) => b - a);
+console.log(unsorted);
