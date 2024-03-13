@@ -57,3 +57,7 @@ const newNum2=numbers.reduce((prev, item) => {
   return prev + item;
 }, 2);
 console.log(newNum2);
+// some in javascript
+numbers.some((item, index, array) => {
+  return item > 3;
+});
