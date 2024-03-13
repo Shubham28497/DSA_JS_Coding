@@ -74,3 +74,16 @@ numbers.find((item, index, array) => {
 // findIndex
 const index = [1, 2, 3].findIndex((item) => item === 2);
 // console.log(index);
+
+// Spread and Rest Operators
+const nums = [1, 2, 3];
+const nums2 = [4, 5, 6, 7];
+
+const finalNums = [...nums, ...nums2]; // Spread Operator
+
+// Rest Operator
+function sum(...numbers) {
+  return numbers;
+}
+
+console.log(sum(nums, nums2, 5, "hello"));
