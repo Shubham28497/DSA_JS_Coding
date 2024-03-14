@@ -17,4 +17,6 @@ function removeDuplicates(nums){
                 return nums.length;
 
 }
+// Time Complexity - O(n)
+// Space Complexity - O(1
 console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]));
