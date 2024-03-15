@@ -22,4 +22,6 @@ function maxSubArray(nums) {
 
   return max;
 }
+// Time Complexity - O(n)
+// Space Complexity - O(1)
 console.log(maxSubArray([5, 4, -1, 7, 8]));
