@@ -25,4 +25,6 @@ const maxSlidingWindowNaive = function (nums, k) {
 
   return result;
 };
+// Time Complexity - O(n*k) => O(n^2)
+// Space Complexity - O(n
 console.log(maxSlidingWindowNaive([1, 3, -1, -3, 5, 3, 6, 7], 3));
