@@ -6,3 +6,23 @@
 
 // Input: nums = [1, 3, -1, -3, 5, 3, 6, 7], k = 3
 // Output: [3, 3, 5, 5, 6, 7]
+const maxSlidingWindowNaive = function (nums, k) {
+  const result = [];
+  const n = nums.length;
+
+  for (i = 0; i <= n - k; i++) {
+    // O(n)
+    let max = nums[i];
+    for (j = 1; j < k; j++) {
+      // O(k)
+      if (nums[i + j] > max) {
+        max = nums[j + i];
+      }
+    }
+
+    result.push(max);
+  }
+
+  return result;
+};
+console.log(maxSlidingWindowNaive([1, 3, -1, -3, 5, 3, 6, 7], 3));
