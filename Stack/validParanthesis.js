@@ -21,3 +21,5 @@ function isValid(s) {
 }
 s = "([]{})";
 console.log(isValid(s))
+
+//Time complexity: O(n)
