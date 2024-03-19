@@ -28,3 +28,8 @@ const reverseWords = function (s) {
 
 console.log(reverseWords("the sky is blue"));
 console.log(reverseWords("  a good   example"));
+
+
+// Time Complexity = O(n)
+// Space Complexity = O(n)
+
