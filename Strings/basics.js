@@ -41,3 +41,7 @@ str.charAt(3)
 for (let i = 0; i < str.length; i++) {
     // console.log(str[i]);  
 }
+// Modifying Strings
+str[3] = "b" // can't do this
+str.replace("s","b") // replaces first instance of that character or word
+str.replaceAll("e","c")// replaces all instance of that character or word
