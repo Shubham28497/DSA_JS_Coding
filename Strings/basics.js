@@ -72,3 +72,11 @@ str.toLowerCase() // converts to lowercase
 
 str.charCodeAt(0) // returns ASCII Code
 String.fromCharCode(65) // returns character from ASCII Code
+
+// String Comparison
+const str1 = "apple"
+const str2 = "apple"
+
+str1.localeCompare(str2) // compare strings
+
+str.includes("Subscribe") // checks if a word exists inside a string
