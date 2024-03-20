@@ -69,3 +69,6 @@ JSON.stringify(toBeConverted) // '{"name":"Piyush"}'
 
 str.toUpperCase() // converts to uppercase
 str.toLowerCase() // converts to lowercase
+
+str.charCodeAt(0) // returns ASCII Code
+String.fromCharCode(65) // returns character from ASCII Code
