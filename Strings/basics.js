@@ -15,3 +15,7 @@ Subscribe to RoadsideCoder!
 Like this Video
 Share this video
 `;
+// Template Literals
+const templateLiteral = `Subscribe to ${singleQuote}!`;
+// Tagged Literals
+console.log`hello ${"world"} how are ${"you"}`
