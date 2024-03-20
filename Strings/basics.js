@@ -45,3 +45,7 @@ for (let i = 0; i < str.length; i++) {
 str[3] = "b" // can't do this
 str.replace("s","b") // replaces first instance of that character or word
 str.replaceAll("e","c")// replaces all instance of that character or word
+
+str.concat(" and share this video") // joins 2 strings
+const newStr = "    Hello  World    "
+newStr.trim() // removes spaces from beginning and end
