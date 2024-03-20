@@ -33,3 +33,11 @@ test`Subscribe to ${channel} run by ${name}`
 // Strings length
 const str = "Subscribe to RoadsideCoder!";
 str.length
+// Accessing Characters
+str[3]
+str.charAt(3)
+ 
+// Looping
+for (let i = 0; i < str.length; i++) {
+    // console.log(str[i]);  
+}
