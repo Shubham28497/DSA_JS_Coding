@@ -58,3 +58,7 @@ str.indexOf("e") // index of first appearance of "e"
 
 str.startsWith("S")
 str.endsWith("!")
+
+// Extracting Substrings
+str.substring(13, 26)
+str.slice(-14, -1) 
