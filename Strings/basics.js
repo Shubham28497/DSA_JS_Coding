@@ -19,3 +19,13 @@ Share this video
 const templateLiteral = `Subscribe to ${singleQuote}!`;
 // Tagged Literals
 console.log`hello ${"world"} how are ${"you"}`
+
+// Tagged Literals Example function 
+function test (string, youtubeChannel, person) {
+		console.log(string,youtubeChannel, person)
+    return;
+}
+
+const channel = "RoadsideCoder"
+const name = "Piyush"
+test`Subscribe to ${channel} run by ${name}`
