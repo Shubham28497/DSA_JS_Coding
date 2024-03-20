@@ -62,3 +62,10 @@ str.endsWith("!")
 // Extracting Substrings
 str.substring(13, 26)
 str.slice(-14, -1) 
+// Converting Case
+const toBeConverted = {name:"Piyush"}
+String(toBeConverted) // [object Object]
+JSON.stringify(toBeConverted) // '{"name":"Piyush"}'
+
+str.toUpperCase() // converts to uppercase
+str.toLowerCase() // converts to lowercase
