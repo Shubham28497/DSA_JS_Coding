@@ -80,3 +80,9 @@ const str2 = "apple"
 str1.localeCompare(str2) // compare strings
 
 str.includes("Subscribe") // checks if a word exists inside a string
+
+// Splitting and Joining Strings
+str.split("e")
+
+const arr = ["apple", "banana"]
+arr.join(" and ")
