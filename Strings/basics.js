@@ -29,3 +29,7 @@ function test (string, youtubeChannel, person) {
 const channel = "RoadsideCoder"
 const name = "Piyush"
 test`Subscribe to ${channel} run by ${name}`
+
+// Strings length
+const str = "Subscribe to RoadsideCoder!";
+str.length
