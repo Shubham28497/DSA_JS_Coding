@@ -49,3 +49,12 @@ str.replaceAll("e","c")// replaces all instance of that character or word
 str.concat(" and share this video") // joins 2 strings
 const newStr = "    Hello  World    "
 newStr.trim() // removes spaces from beginning and end
+
+// Searching
+str.indexOf("Coder") // index of a character or word's first appearance
+
+str.lastIndexOf("e") // index of a character or word's last appearance
+str.indexOf("e") // index of first appearance of "e"
+
+str.startsWith("S")
+str.endsWith("!")
