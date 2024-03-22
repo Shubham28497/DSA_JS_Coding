@@ -5,3 +5,11 @@
 // Input: (s = "anagram"), (t = "nagaram"); ----->>>>>   Output: true;
 // Input: (s = "rat"), (t = "car");         ----->>>>>   Output: false;
 
+function anagram(s, t) {
+  s = s.split("").sort().join("");
+  t = t.split("").sort().join("");
+
+  return s == t;
+}
+
+console.log(anagram("anagram", "nagaram"));
